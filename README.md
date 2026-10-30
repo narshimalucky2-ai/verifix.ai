@@ -99,3 +99,4 @@ python tests/evaluate_accuracy.py
 - `.env` and credentials are never checked into version control.
 - All external URL requests are validated and filtered against SSRF vulnerabilities before fetching.
 - Rate limiting protects against denial-of-service and API quota exhaustion.
+

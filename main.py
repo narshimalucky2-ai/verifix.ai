@@ -632,11 +632,12 @@ def enforce_decision_rules(verdict, evidence_status, conflicts=None, num_indepen
 def get_gemini_api_keys():
     """
     Collects configured Gemini API keys in priority order:
-    1. GEMINI_API_KEY_1, GEMINI_API_KEY_2, GEMINI_API_KEY_3...
+    1. GEMINI_API_KEY_1, GEMINI_API_KEY_2, GEMINI_API_KEY_3, GEMINI_API_KEY_4...
     2. GEMINI_API_KEY (legacy single key fallback)
     3. GEMINI_API_KEYS (comma-separated list fallback)
     Deduplicates while preserving strict fallback priority.
     """
+    load_dotenv(override=True)
     keys = []
     # 1. Numbered keys in order: GEMINI_API_KEY_1, GEMINI_API_KEY_2, ...
     for i in range(1, 21):
