@@ -20,7 +20,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv(override=True)
 
-app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+app = Flask(__name__, template_folder=os.path.join(BASE_DIR, 'templates'))
 CORS(app)
 
 # Security: Enforce request & upload limits (16 MB max)
