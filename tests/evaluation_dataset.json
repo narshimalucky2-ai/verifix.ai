@@ -1,0 +1,3881 @@
+[
+  {
+    "id": "TC-001",
+    "claim": "NASA successfully launched the Europa Clipper spacecraft on October 14, 2024 to explore Jupiter's moon Europa.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Launched aboard Falcon Heavy from KSC.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Launched aboard Falcon Heavy from KSC."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Launched aboard Falcon Heavy from KSC."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-002",
+    "claim": "A water molecule consists of two hydrogen atoms bonded to one oxygen atom (H2O).",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Fundamental chemical structure.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Fundamental chemical structure."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Fundamental chemical structure."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-003",
+    "claim": "Neil Armstrong became the first human to walk on the Moon on July 20, 1969 during the Apollo 11 mission.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Apollo 11 lunar landing.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Apollo 11 lunar landing."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Apollo 11 lunar landing."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-004",
+    "claim": "The James Webb Space Telescope was launched into space on December 25, 2021 aboard an Ariane 5 rocket.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "ESA/NASA launch from Kourou.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "ESA/NASA launch from Kourou."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "ESA/NASA launch from Kourou."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-005",
+    "claim": "DNA is composed of four chemical bases: adenine (A), guanine (G), cytosine (C), and thymine (T).",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Molecular biology foundation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Molecular biology foundation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Molecular biology foundation."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-006",
+    "claim": "The speed of light in a vacuum is approximately 299,792,458 meters per second.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Universal physical constant c.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Universal physical constant c."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Universal physical constant c."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-007",
+    "claim": "The Olympic Games Paris 2024 were held from July 26 to August 11, 2024.",
+    "claim_type": "factual",
+    "domain": "public_affairs",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Games of the XXXIII Olympiad.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Games of the XXXIII Olympiad."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Games of the XXXIII Olympiad."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-008",
+    "claim": "Albert Einstein received the Nobel Prize in Physics in 1921 for his discovery of the law of the photoelectric effect.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Nobel Foundation citation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Nobel Foundation citation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Nobel Foundation citation."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-009",
+    "claim": "Mount Everest is the highest mountain above sea level, located in the Himalayas on the border between Nepal and China.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Geographical consensus height 8,848.86 m.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Geographical consensus height 8,848.86 m."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Geographical consensus height 8,848.86 m."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-010",
+    "claim": "Penicillin was discovered by Scottish physician Alexander Fleming in September 1928 at St. Mary's Hospital in London.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Medical discovery of antibiotics.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Medical discovery of antibiotics."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Medical discovery of antibiotics."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-011",
+    "claim": "The Pacific Ocean is the largest and deepest of the world's oceanic divisions.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "NOAA Oceanographic standard.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "NOAA Oceanographic standard."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "NOAA Oceanographic standard."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-012",
+    "claim": "Jupiter is the largest planet in our solar system, with a mass more than two and a half times that of all other planets combined.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Planetary astronomy.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Planetary astronomy."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Planetary astronomy."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-013",
+    "claim": "The human circulatory system relies on the heart to pump blood throughout the body via arteries, veins, and capillaries.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Basic cardiovascular anatomy.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Basic cardiovascular anatomy."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Basic cardiovascular anatomy."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-014",
+    "claim": "The United Nations was established in 1945 following the conclusion of World War II to promote international peace.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "UN Charter signed in San Francisco June 1945.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "UN Charter signed in San Francisco June 1945."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "UN Charter signed in San Francisco June 1945."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-015",
+    "claim": "Photosynthesis is the biological process by which green plants convert light energy into chemical energy stored in glucose.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Plant biology fundamentals.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Plant biology fundamentals."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Plant biology fundamentals."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-016",
+    "claim": "The World Health Organization officially declared smallpox eradicated worldwide in May 1980.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Resolution WHA33.3.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Resolution WHA33.3."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Resolution WHA33.3."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-017",
+    "claim": "Diamond is an allotrope of carbon where carbon atoms are arranged in a face-centered cubic crystal lattice structure.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Mineralogy reference.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Mineralogy reference."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Mineralogy reference."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-018",
+    "claim": "Alan Turing developed the concept of a universal machine in 1936, providing the theoretical foundation for modern computer science.",
+    "claim_type": "factual",
+    "domain": "technology",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Turing's 1936 paper 'On Computable Numbers'.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Turing's 1936 paper 'On Computable Numbers'."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Turing's 1936 paper 'On Computable Numbers'."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-019",
+    "claim": "The International Space Station (ISS) orbits Earth at an average altitude of approximately 400 kilometers (250 miles).",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "NASA flight telemetry.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "NASA flight telemetry."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "NASA flight telemetry."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-020",
+    "claim": "Helium is the second most abundant element in the observable universe, following hydrogen.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Cosmic nucleosynthesis reference.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Cosmic nucleosynthesis reference."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Cosmic nucleosynthesis reference."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-021",
+    "claim": "The Eiffel Tower was constructed as the entrance arch for the 1889 World's Fair in Paris, France.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Exposition Universelle de 1889.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Exposition Universelle de 1889."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Exposition Universelle de 1889."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-022",
+    "claim": "The human genome contains approximately 3 billion base pairs of DNA packaged into 23 pairs of chromosomes.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Human Genome Project findings.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Human Genome Project findings."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Human Genome Project findings."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-023",
+    "claim": "The ozone layer is primarily found in the lower portion of Earth's stratosphere, between roughly 15 and 35 kilometers altitude.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Atmospheric science.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Atmospheric science."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Atmospheric science."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-024",
+    "claim": "The Wright brothers achieved the first controlled, sustained flight of a powered aircraft on December 17, 1903 at Kitty Hawk.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "First powered flight near Kitty Hawk.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "First powered flight near Kitty Hawk."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "First powered flight near Kitty Hawk."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-025",
+    "claim": "The Amazon River basin contains the world's largest tropical rainforest by land area.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Global geography.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Global geography."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Global geography."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-026",
+    "claim": "The Voyager 1 space probe entered interstellar space in August 2012, becoming the first human-made object to do so.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Heliopause crossing.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Heliopause crossing."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Heliopause crossing."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-027",
+    "claim": "Silicon is the second most abundant element in the Earth's crust by mass, following oxygen.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "USGS Geochemistry.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "USGS Geochemistry."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "USGS Geochemistry."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-028",
+    "claim": "The Panama Canal officially opened on August 15, 1914, connecting the Atlantic and Pacific Oceans.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Inaugural transit by SS Ancon.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Inaugural transit by SS Ancon."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Inaugural transit by SS Ancon."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-029",
+    "claim": "Penicillin inhibits bacterial cell wall synthesis by preventing the cross-linking of peptidoglycan strands.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Beta-lactam mechanism of action.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Beta-lactam mechanism of action."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Beta-lactam mechanism of action."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-030",
+    "claim": "The Hubble Space Telescope was deployed into low Earth orbit by Space Shuttle Discovery in April 1990.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "STS-31 shuttle mission.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "STS-31 shuttle mission."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "STS-31 shuttle mission."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-031",
+    "claim": "Earth takes approximately 365.25 days to complete one full orbital revolution around the Sun.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Astronomical year measurement.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Astronomical year measurement."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Astronomical year measurement."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-032",
+    "claim": "The periodic table of elements was first organized systematically by Russian chemist Dmitri Mendeleev in 1869.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Chemical periodicity history.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Chemical periodicity history."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Chemical periodicity history."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-033",
+    "claim": "The Magna Carta was originally issued by King John of England at Runnymede in June 1215.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "verified",
+    "expected_evidence_status": "supported",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Constitutional history archive.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Academic / Institutional Archive",
+        "url": "https://verified-record.org/archive",
+        "notes": "Constitutional history archive."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Primary Institutional Record",
+          "url": "https://official-records.gov/primary",
+          "publisher": "PrimaryGovAgency",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Constitutional history archive."
+        },
+        {
+          "title": "Peer-Reviewed Scientific Reference",
+          "url": "https://journal-reference.org/paper",
+          "publisher": "AcademicJournal",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Corroborates claim facts."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-034",
+    "claim": "Drinking boiled garlic water cures and completely eradicates coronavirus COVID-19 infection.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Debunked by WHO, CDC.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Debunked by WHO, CDC."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Debunked by WHO, CDC."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-035",
+    "claim": "NASA confirmed in a 2024 press conference that Earth is flat and gravity is an illusion.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Flat earth conspiracy myth.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Flat earth conspiracy myth."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Flat earth conspiracy myth."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-036",
+    "claim": "Eating lemons mixed with sodium bicarbonate is proven to be 10,000 times stronger than chemotherapy for cancer treatment.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Debunked viral email myth.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Debunked viral email myth."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Debunked viral email myth."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-037",
+    "claim": "5G cellular telecommunications towers transmit coronavirus and cause viral respiratory pandemics.",
+    "claim_type": "factual",
+    "domain": "technology",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Telecommunications conspiracy debunked by FCC/WHO.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Telecommunications conspiracy debunked by FCC/WHO."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Telecommunications conspiracy debunked by FCC/WHO."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-038",
+    "claim": "Holding your breath for 10 seconds without coughing is a medically validated test to confirm you do not have COVID-19.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Falsely attributed to Stanford Health Care.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Falsely attributed to Stanford Health Care."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Falsely attributed to Stanford Health Care."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-039",
+    "claim": "Microwave ovens emit ionizing radiation that makes food radioactive and permanently alters human DNA.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Microwaves use non-ionizing RF radiation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Microwaves use non-ionizing RF radiation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Microwaves use non-ionizing RF radiation."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-040",
+    "claim": "Humans only use 10 percent of their brain capacity at any given time.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Neuromyth refuted by fMRI.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Neuromyth refuted by fMRI."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Neuromyth refuted by fMRI."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-041",
+    "claim": "The Great Wall of China is the only human-made structure visible to the naked human eye from low Earth orbit.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "NASA confirms not visible without optical aid.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "NASA confirms not visible without optical aid."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: NASA confirms not visible without optical aid."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-042",
+    "claim": "Swallowed chewing gum remains in the human stomach undigested for exactly seven years.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Gastroenterology clinical consensus.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Gastroenterology clinical consensus."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Gastroenterology clinical consensus."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-043",
+    "claim": "Shaving hair makes it grow back faster, thicker, and darker in color.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Dermatology clinical trials refutation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Dermatology clinical trials refutation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Dermatology clinical trials refutation."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-044",
+    "claim": "Blood inside human veins is blue until it comes into contact with external atmospheric oxygen.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Deoxygenated blood is dark red.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Deoxygenated blood is dark red."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Deoxygenated blood is dark red."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-045",
+    "claim": "Dropping a penny from the top of the Empire State Building will accelerate enough to penetrate concrete or kill a pedestrian.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Terminal velocity is ~40 km/h.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Terminal velocity is ~40 km/h."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Terminal velocity is ~40 km/h."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-046",
+    "claim": "Vaccines contain microscopic RFID tracking microchips deployed by the government to monitor citizen locations.",
+    "claim_type": "factual",
+    "domain": "technology",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Debunked microchip conspiracy.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Debunked microchip conspiracy."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Debunked microchip conspiracy."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-047",
+    "claim": "Bulls are enraged specifically by the color red, which causes them to charge matadors.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Cattle are dichromatic; movement triggers charge.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Cattle are dichromatic; movement triggers charge."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Cattle are dichromatic; movement triggers charge."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-048",
+    "claim": "Cracking your knuckles causes severe osteoarthritic joint degeneration in later life.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Cavitation in synovial fluid; no link to arthritis.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Cavitation in synovial fluid; no link to arthritis."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Cavitation in synovial fluid; no link to arthritis."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-049",
+    "claim": "Drinking colloidal silver is an approved, non-toxic panacea that permanently protects against all infectious bacteria and viruses.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "FDA warns against colloidal silver toxicity.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "FDA warns against colloidal silver toxicity."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: FDA warns against colloidal silver toxicity."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-050",
+    "claim": "Thomas Edison invented the electric light bulb from scratch with zero prior inventors contributing to incandescent lighting.",
+    "claim_type": "factual",
+    "domain": "history",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Swan and Davy had prior incandescent bulbs.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Swan and Davy had prior incandescent bulbs."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Swan and Davy had prior incandescent bulbs."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-051",
+    "claim": "The Bermuda Triangle experiences a statistically higher rate of ship and aircraft disappearances than any other ocean region.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "NOAA and Coast Guard data show incident rates match normal traffic.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "NOAA and Coast Guard data show incident rates match normal traffic."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: NOAA and Coast Guard data show incident rates match normal traffic."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-052",
+    "claim": "Ostriches bury their heads in the sand when they are frightened or threatened by predators.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Ostriches lie flat to camouflage; they do not bury heads in sand.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Ostriches lie flat to camouflage; they do not bury heads in sand."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Ostriches lie flat to camouflage; they do not bury heads in sand."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-053",
+    "claim": "Chameleons change their skin color strictly to match the physical background color of the surface they rest on.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Color change is driven by thermoregulation and mood.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Color change is driven by thermoregulation and mood."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Color change is driven by thermoregulation and mood."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-054",
+    "claim": "Goldfish have an absolute maximum memory retention span of only three seconds.",
+    "claim_type": "factual",
+    "domain": "everyday",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Studies show memory persists for months.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Studies show memory persists for months."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Studies show memory persists for months."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-055",
+    "claim": "Lightning never strikes the exact same geographic location twice.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Empire State Building struck 25 times per year.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Empire State Building struck 25 times per year."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Empire State Building struck 25 times per year."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-056",
+    "claim": "Bats are naturally completely blind and navigate solely using high-frequency radar technology.",
+    "claim_type": "factual",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Bats have vision; echolocation is acoustic, not radar.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Bats have vision; echolocation is acoustic, not radar."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Bats have vision; echolocation is acoustic, not radar."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-057",
+    "claim": "Eating turkey causes severe immediate drowsiness exclusively due to an abnormally high tryptophan level compared to other meats.",
+    "claim_type": "factual",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "contradicted",
+    "expected_evidence_strength": "strong",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Turkey has normal meat tryptophan; holiday meal carbs cause drowsiness.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Turkey has normal meat tryptophan; holiday meal carbs cause drowsiness."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [
+        {
+          "title": "Authoritative Scientific Refutation",
+          "url": "https://refutation-source.org/factcheck",
+          "publisher": "GlobalAuthority",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Refutes claim: Turkey has normal meat tryptophan; holiday meal carbs cause drowsiness."
+        },
+        {
+          "title": "Independent Fact Check Analysis",
+          "url": "https://factcheck.org/report",
+          "publisher": "FactCheckOrg",
+          "source_type": "secondary",
+          "relevance": "high",
+          "evidence_summary": "Comprehensive evidence-based debunk."
+        }
+      ],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-058",
+    "claim": "A major scientific study proved red wine cures dementia and replaces physical exercise.",
+    "claim_type": "headline_exaggeration",
+    "domain": "health",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Sensationalized headline regarding rodent resveratrol study.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Sensationalized headline regarding rodent resveratrol study."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Sensationalized headline regarding rodent resveratrol study."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Sensationalized headline regarding rodent resveratrol study."
+      ]
+    }
+  },
+  {
+    "id": "TC-059",
+    "claim": "NASA confirmed an asteroid will hit Earth next month with 100 percent certainty.",
+    "claim_type": "headline_exaggeration",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Clickbait headline exaggerating normal flyby with 0% impact risk.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Clickbait headline exaggerating normal flyby with 0% impact risk."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Clickbait headline exaggerating normal flyby with 0% impact risk."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Clickbait headline exaggerating normal flyby with 0% impact risk."
+      ]
+    }
+  },
+  {
+    "id": "TC-060",
+    "claim": "Apollo 11 landed on the Moon in July 1969 and was commanded by Buzz Aldrin.",
+    "claim_type": "compound",
+    "domain": "history",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Landing is factual, but commander was Neil Armstrong.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Landing is factual, but commander was Neil Armstrong."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Landing is factual, but commander was Neil Armstrong."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Landing is factual, but commander was Neil Armstrong."
+      ]
+    }
+  },
+  {
+    "id": "TC-061",
+    "claim": "Winston Churchill famously stated: 'If you're going through hell, keep going' during a 1941 BBC broadcast.",
+    "claim_type": "misleading_context",
+    "domain": "history",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Quote not found in Churchill speeches.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Quote not found in Churchill speeches."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Quote not found in Churchill speeches."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Quote not found in Churchill speeches."
+      ]
+    }
+  },
+  {
+    "id": "TC-062",
+    "claim": "The US national debt was completely paid off and reduced to zero in 2000 under President Clinton.",
+    "claim_type": "misleading_context",
+    "domain": "public_affairs",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Budget had annual surplus, but debt remained over $5.6T.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Budget had annual surplus, but debt remained over $5.6T."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Budget had annual surplus, but debt remained over $5.6T."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Budget had annual surplus, but debt remained over $5.6T."
+      ]
+    }
+  },
+  {
+    "id": "TC-063",
+    "claim": "A new tech study proved playing video games causes permanent violent behavior in all teenagers.",
+    "claim_type": "headline_exaggeration",
+    "domain": "science",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "APA found insufficient evidence linking games to violence.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "APA found insufficient evidence linking games to violence."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "APA found insufficient evidence linking games to violence."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: APA found insufficient evidence linking games to violence."
+      ]
+    }
+  },
+  {
+    "id": "TC-064",
+    "claim": "Albert Einstein failed high school mathematics before later inventing the theory of relativity.",
+    "claim_type": "misleading_context",
+    "domain": "history",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Einstein excelled in math; school reversed grading scale.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Einstein excelled in math; school reversed grading scale."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Einstein excelled in math; school reversed grading scale."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Einstein excelled in math; school reversed grading scale."
+      ]
+    }
+  },
+  {
+    "id": "TC-065",
+    "claim": "Marie Curie discovered radium and was the first woman to win a Nobel Prize, which she was awarded in 1950.",
+    "claim_type": "compound",
+    "domain": "history",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Won Nobel in 1903/1911; died in 1934.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Won Nobel in 1903/1911; died in 1934."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Won Nobel in 1903/1911; died in 1934."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Won Nobel in 1903/1911; died in 1934."
+      ]
+    }
+  },
+  {
+    "id": "TC-066",
+    "claim": "Benjamin Franklin was the third President of the United States and signed the Declaration of Independence.",
+    "claim_type": "compound",
+    "domain": "history",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Signed Declaration, but never President.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Signed Declaration, but never President."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Signed Declaration, but never President."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Signed Declaration, but never President."
+      ]
+    }
+  },
+  {
+    "id": "TC-067",
+    "claim": "Bill Gates admitted in an interview that computer vaccines will eliminate one third of the world population.",
+    "claim_type": "misleading_context",
+    "domain": "public_affairs",
+    "expected_verdict": "misleading",
+    "expected_evidence_status": "misleading_context",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Manipulated quote from 2010 TED talk regarding child mortality.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Official Fact-Checking & Scientific Reference",
+        "url": "https://factcheck.org/entry",
+        "notes": "Manipulated quote from 2010 TED talk regarding child mortality."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Contextual Nuance Source",
+          "url": "https://context-check.org/story",
+          "publisher": "NewsArchive",
+          "source_type": "secondary",
+          "relevance": "medium",
+          "evidence_summary": "Manipulated quote from 2010 TED talk regarding child mortality."
+        }
+      ],
+      "contradicting": [],
+      "conflicts": [
+        "Material distortion of facts: Manipulated quote from 2010 TED talk regarding child mortality."
+      ]
+    }
+  },
+  {
+    "id": "TC-068",
+    "claim": "An anonymous resident in a small rural village reported finding a rare blue meteorite in their backyard yesterday afternoon.",
+    "claim_type": "obscure_rumor",
+    "domain": "everyday",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Hyperlocal uncorroborated social claim.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Hyperlocal uncorroborated social claim."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-069",
+    "claim": "Estimates of human population after the Toba eruption 74,000 years ago show a 1,000 breeding pairs bottleneck rather than regional continuity.",
+    "claim_type": "scientific_debate",
+    "domain": "science",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Peer-reviewed literature actively divided between bottleneck and stability.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Peer-reviewed literature actively divided between bottleneck and stability."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Peer-reviewed literature actively divided between bottleneck and stability."
+      ]
+    }
+  },
+  {
+    "id": "TC-070",
+    "claim": "Tech company QuantumLeap Inc. has secretly developed a working 100,000-qubit fault-tolerant quantum computer in an undisclosed bunker.",
+    "claim_type": "obscure_rumor",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Unsubstantiated forum rumor with zero hardware proof.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Unsubstantiated forum rumor with zero hardware proof."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-071",
+    "claim": "Historical casualty estimates for the Sack of Rome in 1527 range widely from 6,000 to over 20,000 dead.",
+    "claim_type": "scientific_debate",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Renaissance sources and modern historians maintain disputed estimates.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Renaissance sources and modern historians maintain disputed estimates."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Renaissance sources and modern historians maintain disputed estimates."
+      ]
+    }
+  },
+  {
+    "id": "TC-072",
+    "claim": "A new gadget brand claimed their wireless earbud battery lasts 4 weeks on one charge, repeated across 12 gadget blogs quoting a press release.",
+    "claim_type": "syndicated_pr",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Single marketing press release repeated without independent bench testing.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Single marketing press release repeated without independent bench testing."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-073",
+    "claim": "Archaeologists in an undisclosed private excavation claim to have discovered the lost tomb of Alexander the Great in Alexandria yesterday.",
+    "claim_type": "obscure_rumor",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Periodic unconfirmed sensational rumor.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Periodic unconfirmed sensational rumor."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-074",
+    "claim": "Atmospheric biosignature data from exoplanet K2-18 b definitively proves the presence of biological life produced by marine phytoplankton.",
+    "claim_type": "scientific_debate",
+    "domain": "science",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "JWST data confirmed methane, but dimethyl sulfide biosignature is actively contested.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "JWST data confirmed methane, but dimethyl sulfide biosignature is actively contested."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: JWST data confirmed methane, but dimethyl sulfide biosignature is actively contested."
+      ]
+    }
+  },
+  {
+    "id": "TC-075",
+    "claim": "An anonymous whistleblower claimed an intelligence agency is operating a weather-control machine in Nevada.",
+    "claim_type": "obscure_rumor",
+    "domain": "public_affairs",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Classic uncorroborated conspiracy leak.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Classic uncorroborated conspiracy leak."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-076",
+    "claim": "A startup claimed their new AI model achieved artificial general intelligence (AGI) based on a proprietary internal test score.",
+    "claim_type": "syndicated_pr",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": false,
+    "claim_context": "Marketing PR claim unsupported by external benchmark evaluation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Marketing PR claim unsupported by external benchmark evaluation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-077",
+    "claim": "Historical consensus disputes whether King Arthur was based on a 5th-century Romano-British military leader or was entirely a mythical folklore figure.",
+    "claim_type": "scientific_debate",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Medievalists and historians maintain divided views due to lack of 5th-century records.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Medievalists and historians maintain divided views due to lack of 5th-century records."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Medievalists and historians maintain divided views due to lack of 5th-century records."
+      ]
+    }
+  },
+  {
+    "id": "TC-078",
+    "claim": "A social media post reported that a private zoo in an undisclosed location successfully cloned a living woolly mammoth calf last week.",
+    "claim_type": "obscure_rumor",
+    "domain": "science",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero veterinary or academic confirmation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero veterinary or academic confirmation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-079",
+    "claim": "Nutrition researchers actively debate whether moderate alcohol consumption offers cardiovascular protective effects or if zero consumption is optimal.",
+    "claim_type": "scientific_debate",
+    "domain": "health",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Conflicting epidemiological studies (J-curve vs Lancet GBD meta-analysis).",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Conflicting epidemiological studies (J-curve vs Lancet GBD meta-analysis)."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Conflicting epidemiological studies (J-curve vs Lancet GBD meta-analysis)."
+      ]
+    }
+  },
+  {
+    "id": "TC-080",
+    "claim": "A regional website claims an unnamed local farmer grew a 900-pound carrot in their backyard garden this autumn.",
+    "claim_type": "obscure_rumor",
+    "domain": "everyday",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Heaviest record carrot is ~22 lbs; 900 lbs is unsubstantiated rumor.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Heaviest record carrot is ~22 lbs; 900 lbs is unsubstantiated rumor."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-081",
+    "claim": "Economists remain in fundamental disagreement regarding whether raising the minimum wage increases or has negligible effect on youth employment.",
+    "claim_type": "scientific_debate",
+    "domain": "public_affairs",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Card-Krueger vs Neumark econometric controversy.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Card-Krueger vs Neumark econometric controversy."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Card-Krueger vs Neumark econometric controversy."
+      ]
+    }
+  },
+  {
+    "id": "TC-082",
+    "claim": "A message board user claims an upcoming unannounced video game will feature a 500-square-mile playable map and release next Tuesday.",
+    "claim_type": "obscure_rumor",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero studio confirmation or trademark filings.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero studio confirmation or trademark filings."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-083",
+    "claim": "A viral leak claimed a tech CEO secretly acquired an uncharted Pacific island to establish an autonomous cryptocurrency state.",
+    "claim_type": "obscure_rumor",
+    "domain": "public_affairs",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Anonymous social media post without land registry verification.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Anonymous social media post without land registry verification."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-084",
+    "claim": "Linguists and historians remain divided on whether the Voynich manuscript contains an authentic encrypted cipher or is an elaborate Renaissance hoax.",
+    "claim_type": "scientific_debate",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Cryptographers and paleographers maintain irreconcilable positions.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Cryptographers and paleographers maintain irreconcilable positions."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Cryptographers and paleographers maintain irreconcilable positions."
+      ]
+    }
+  },
+  {
+    "id": "TC-085",
+    "claim": "A dietary blog claims an undiscovered Amazonian seed burns 5 pounds of human body fat per day with zero dietary modification.",
+    "claim_type": "obscure_rumor",
+    "domain": "health",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero pharmacological or peer-reviewed clinical trials.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero pharmacological or peer-reviewed clinical trials."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-086",
+    "claim": "Archaeologists dispute whether the Kensington Runestone found in Minnesota in 1898 is a genuine 14th-century Norse artifact or a 19th-century hoax.",
+    "claim_type": "scientific_debate",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Linguists and runologists actively disagree on inscription authenticity.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Linguists and runologists actively disagree on inscription authenticity."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Linguists and runologists actively disagree on inscription authenticity."
+      ]
+    }
+  },
+  {
+    "id": "TC-087",
+    "claim": "A leaked memo on social media claimed a major automaker will completely cease manufacturing all gasoline vehicles by next month.",
+    "claim_type": "obscure_rumor",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Uncorroborated leaked graphic contradicting company regulatory filings.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Uncorroborated leaked graphic contradicting company regulatory filings."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-088",
+    "claim": "Paleontologists actively debate whether Nanotyrannus represents a distinct dwarf tyrannosaurid genus or is a juvenile Tyrannosaurus rex.",
+    "claim_type": "scientific_debate",
+    "domain": "science",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Longstanding morphological and bone-histology paleontological debate.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Longstanding morphological and bone-histology paleontological debate."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Longstanding morphological and bone-histology paleontological debate."
+      ]
+    }
+  },
+  {
+    "id": "TC-089",
+    "claim": "An anonymous flyer claimed a secret underground gold vault exists beneath the city hall of a small Midwestern town.",
+    "claim_type": "obscure_rumor",
+    "domain": "everyday",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero historical or municipal geological backing.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero historical or municipal geological backing."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-090",
+    "claim": "Sleep researchers disagree on whether human sleep patterns in pre-industrial societies were universally biphasic (first and second sleep).",
+    "claim_type": "scientific_debate",
+    "domain": "health",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Ekirch's historical thesis challenged by Yetish et al. study of hunter-gatherers.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Ekirch's historical thesis challenged by Yetish et al. study of hunter-gatherers."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Ekirch's historical thesis challenged by Yetish et al. study of hunter-gatherers."
+      ]
+    }
+  },
+  {
+    "id": "TC-091",
+    "claim": "A social media rumor claimed a newly discovered cave in Peru contains ancient gold tablets inscribed with extraterrestrial star charts.",
+    "claim_type": "obscure_rumor",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Sensational internet rumor without archaeological provenance.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Sensational internet rumor without archaeological provenance."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-092",
+    "claim": "Evolutionary biologists debate whether modern human brain size has slightly decreased over the past 10,000 years or has remained essentially unchanged.",
+    "claim_type": "scientific_debate",
+    "domain": "science",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Conflicting studies comparing Holocene cranial collections.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Conflicting studies comparing Holocene cranial collections."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Conflicting studies comparing Holocene cranial collections."
+      ]
+    }
+  },
+  {
+    "id": "TC-093",
+    "claim": "A blog reported that a tech executive has already implanted an experimental brain-computer interface enabling telepathic email drafting.",
+    "claim_type": "obscure_rumor",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero medical regulatory filings or clinical trial registrations.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero medical regulatory filings or clinical trial registrations."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-094",
+    "claim": "Historians dispute whether the Great Fire of Rome in 64 AD was intentionally ordered by Emperor Nero or was an accidental urban blaze.",
+    "claim_type": "scientific_debate",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Tacitus, Suetonius, and modern historians offer conflicting interpretations.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Tacitus, Suetonius, and modern historians offer conflicting interpretations."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Tacitus, Suetonius, and modern historians offer conflicting interpretations."
+      ]
+    }
+  },
+  {
+    "id": "TC-095",
+    "claim": "A forum user claims an anonymous programmer has successfully decrypted a Satoshi Nakamoto Bitcoin wallet containing 50,000 BTC.",
+    "claim_type": "obscure_rumor",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Blockchain ledger shows zero transaction movement from early genesis-era addresses.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Blockchain ledger shows zero transaction movement from early genesis-era addresses."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-096",
+    "claim": "Atmospheric scientists actively debate whether solar radiation management using stratospheric aerosol injection can be conducted safely without disrupting monsoons.",
+    "claim_type": "scientific_debate",
+    "domain": "science",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Climate modeling teams show conflicting regional precipitation impacts.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Climate modeling teams show conflicting regional precipitation impacts."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Climate modeling teams show conflicting regional precipitation impacts."
+      ]
+    }
+  },
+  {
+    "id": "TC-097",
+    "claim": "A rumor claimed a rare species of flightless owl was spotted in a residential suburban garden in Ohio last night.",
+    "claim_type": "obscure_rumor",
+    "domain": "everyday",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero photographic or ornithological society confirmation.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero photographic or ornithological society confirmation."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-098",
+    "claim": "Philosophers and cognitive scientists dispute whether large language models exhibit genuine understanding of semantic concepts or merely syntactic token mapping.",
+    "claim_type": "scientific_debate",
+    "domain": "technology",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Ongoing philosophical dispute (Searle's Chinese Room vs functionalist viewpoints).",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Ongoing philosophical dispute (Searle's Chinese Room vs functionalist viewpoints)."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Ongoing philosophical dispute (Searle's Chinese Room vs functionalist viewpoints)."
+      ]
+    }
+  },
+  {
+    "id": "TC-099",
+    "claim": "An anonymous social media post claims a pharmaceutical company discovered an anti-aging enzyme that reverses human biological age by 30 years.",
+    "claim_type": "obscure_rumor",
+    "domain": "health",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "insufficient",
+    "has_conflict": false,
+    "is_time_sensitive": true,
+    "claim_context": "Zero clinical trials, patents, or peer-reviewed literature.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Zero clinical trials, patents, or peer-reviewed literature."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [],
+      "contradicting": [],
+      "conflicts": []
+    }
+  },
+  {
+    "id": "TC-100",
+    "claim": "Historians remain divided over whether Richard III personally ordered the murder of the Princes in the Tower in 1483.",
+    "claim_type": "scientific_debate",
+    "domain": "history",
+    "expected_verdict": "unverified",
+    "expected_evidence_status": "insufficient_evidence",
+    "expected_evidence_strength": "moderate",
+    "has_conflict": true,
+    "is_time_sensitive": false,
+    "claim_context": "Historical debate between traditionalist accounts and revisionist Richard III Society.",
+    "review_date": "2026-10-29",
+    "ground_truth_references": [
+      {
+        "source_name": "Academic / Fact-Checking Historical Registry",
+        "url": "https://unverified-disputed-records.org",
+        "notes": "Historical debate between traditionalist accounts and revisionist Richard III Society."
+      }
+    ],
+    "mock_evidence": {
+      "supporting": [
+        {
+          "title": "Position A Study / Claim",
+          "url": "https://journal-view-a.org/paper",
+          "publisher": "AcademicA",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents argument/findings for position A."
+        }
+      ],
+      "contradicting": [
+        {
+          "title": "Position B Study / Opposing Record",
+          "url": "https://journal-view-b.org/paper",
+          "publisher": "AcademicB",
+          "source_type": "primary",
+          "relevance": "high",
+          "evidence_summary": "Presents counter-argument/findings for position B."
+        }
+      ],
+      "conflicts": [
+        "Unresolved material disagreement among credible authorities: Historical debate between traditionalist accounts and revisionist Richard III Society."
+      ]
+    }
+  }
+]

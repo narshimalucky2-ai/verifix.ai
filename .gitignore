@@ -1,0 +1,36 @@
+# Secrets and Environment Variables
+.env
+*.env
+.env.local
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Large Archives and Binaries
+*.zip
+*.tar.gz
+*.rar
+.vscode.zip
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary and Upload Files
+temp/
+uploads/
+*.log
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VerifiX AI — Evidence-Based Truth Verification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="VerifiX AI evaluates claims using grounded Google Search evidence, claim decomposition, and conflict analysis.">
+  <meta name="keywords" content="fake news detection, AI fact check, Google search grounding, evidence matrix, claim decomposition">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Theme -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: "#070b1f",
+            navy2: "#11173a",
+            cyan: "#38f9ff",
+            pink: "#ff3d81",
+            soft: "#a5b4fc",
+            amber: "#f59e0b",
+            emerald: "#10b981"
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-navy via-navy2 to-black text-gray-200 min-h-screen font-sans">
+
+<!-- ================= NAVBAR ================= -->
+<header class="fixed w-full top-0 z-50 backdrop-blur bg-navy/80 border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-2">
+      <span class="text-2xl">🛡️</span>
+      <h1 class="text-2xl font-extrabold text-cyan tracking-wide">VerifiX AI</h1>
+      <span class="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-cyan/10 text-cyan border border-cyan/20 ml-2">Stage 2 Evidence Engine</span>
+    </div>
+    <nav class="hidden md:flex space-x-8 text-sm text-gray-300">
+      <a href="#demo" class="hover:text-cyan transition">Verify Claim</a>
+      <a href="#features" class="hover:text-cyan transition">Features</a>
+      <a href="#pipeline" class="hover:text-cyan transition">Pipeline</a>
+      <a href="#faq" class="hover:text-cyan transition">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="pt-32 pb-16 text-center">
+  <h2 class="text-4xl md:text-6xl font-extrabold tracking-tight px-4">
+    Transparent Misinformation Analysis<br>
+    <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan via-soft to-pink">
+      Grounded in Multi-Source Evidence.
+    </span>
+  </h2>
+
+  <p class="mt-5 max-w-3xl mx-auto text-gray-400 text-base md:text-lg px-4 leading-relaxed">
+    Evaluating claims through claim decomposition, bidirectional evidence gathering, source-independence clustering, and conflict detection.
+  </p>
+
+  <div class="mt-8 flex justify-center gap-4">
+    <a href="#demo" class="px-7 py-3 bg-gradient-to-r from-cyan to-pink rounded-xl font-bold text-navy hover:opacity-95 shadow-lg shadow-cyan/10 transition">
+      Start Verification
+    </a>
+    <a href="#features" class="px-7 py-3 border border-white/20 rounded-xl hover:bg-white/5 transition text-sm">
+      How Evidence is Judged
+    </a>
+  </div>
+</section>
+
+<!-- ================= LIVE DEMO ================= -->
+<section id="demo" class="py-12 bg-navy2">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-center mb-6">
+      <h3 class="text-2xl md:text-3xl font-bold text-soft">Live Verification Studio</h3>
+      <p class="text-xs md:text-sm text-gray-400 mt-1">Submit a text statement, paste a news article URL, or attach an image.</p>
+    </div>
+
+    <div class="bg-white/5 p-6 md:p-8 rounded-2xl border border-white/10 shadow-2xl backdrop-blur">
+      
+      <!-- Preset Buttons -->
+      <div class="mb-4">
+        <span class="text-xs text-gray-400 block mb-2 font-medium">Quick Test Scenarios:</span>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <button type="button" onclick="preset('Drinking boiled garlic water cures and eradicates COVID-19.')" class="px-3 py-1.5 bg-white/10 rounded-lg hover:bg-white/20 text-gray-300 transition">Contradicted Claim</button>
+          <button type="button" onclick="preset('NASA launched Europa Clipper on October 14, 2024 to explore Jupiter moon Europa.')" class="px-3 py-1.5 bg-white/10 rounded-lg hover:bg-white/20 text-gray-300 transition">Supported Claim</button>
+          <button type="button" onclick="preset('Apollo 11 landed on the moon in 1969 and was commanded by Buzz Aldrin.')" class="px-3 py-1.5 bg-white/10 rounded-lg hover:bg-white/20 text-gray-300 transition">Compound Claim (Mixed)</button>
+          <button type="button" onclick="preset('An anonymous resident in a small town found an unmarked blue meteorite yesterday.')" class="px-3 py-1.5 bg-white/10 rounded-lg hover:bg-white/20 text-gray-300 transition">Insufficient Evidence</button>
+        </div>
+      </div>
+
+      <!-- File Attachment Input -->
+      <div class="mb-3 p-3 bg-navy/60 rounded-xl border border-white/5">
+        <div class="flex items-center justify-between">
+          <label class="text-xs text-gray-300 font-medium flex items-center gap-1.5">
+            <span>📷</span> Attach Image / Screenshot (JPG, PNG, WebP):
+          </label>
+          <span id="fileBadge" class="hidden text-[11px] text-cyan font-mono bg-cyan/10 px-2 py-0.5 rounded">File Attached</span>
+        </div>
+        <div class="mt-2 flex items-center gap-3">
+          <input type="file" id="videoUpload" accept="image/png,image/jpeg,image/webp,image/gif" onchange="handleFileSelected(this)" class="text-xs text-gray-400 file:mr-3 file:py-1.5 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-cyan/10 file:text-cyan hover:file:bg-cyan/20 cursor-pointer">
+          <button type="button" id="removeFileBtn" onclick="clearFileAttachment()" class="hidden text-xs text-pink hover:underline">Remove</button>
+        </div>
+        <div id="imagePreviewContainer" class="hidden mt-3">
+          <img id="imagePreview" src="" alt="Selected image preview" class="max-h-36 rounded-lg border border-white/10 object-contain bg-black/40 p-1">
+        </div>
+      </div>
+
+      <!-- Main Input Textarea -->
+      <textarea id="demoText"
+        class="w-full bg-navy p-4 rounded-xl border border-white/10 focus:ring-2 focus:ring-cyan focus:border-transparent text-gray-200 text-sm placeholder-gray-500 leading-relaxed"
+        rows="4"
+        placeholder="Enter a claim, compound statement, or paste a webpage article URL (https://...)..."></textarea>
+
+      <!-- Verify Button -->
+      <div class="mt-4 flex items-center justify-between">
+        <button type="button" id="verifyBtn" onclick="verifyText()"
+          class="px-8 py-3 bg-gradient-to-r from-cyan to-pink rounded-xl font-bold text-navy hover:opacity-95 shadow-md shadow-cyan/20 transition flex items-center gap-2 text-sm">
+          <span>🔍</span> Analyze Evidence & Verify
+        </button>
+        <span class="text-xs text-gray-500">Google Search Grounded • Source Clustered</span>
+      </div>
+
+      <!-- Result Card -->
+      <div id="resultBox" class="mt-8 hidden p-6 bg-navy/95 rounded-xl border border-white/10 shadow-xl space-y-6">
+        
+        <!-- Header: Verdict & Evidence Status -->
+        <div class="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+          <div class="flex items-center gap-3">
+            <span class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Verdict:</span>
+            <div class="font-extrabold text-xl tracking-wide px-3.5 py-1 rounded-lg" id="verdict"></div>
+          </div>
+          <div id="evidenceStatusBadge" class="text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider"></div>
+        </div>
+
+        <!-- Conflict Warning Banner (if conflicts detected) -->
+        <div id="conflictBanner" class="hidden p-4 rounded-xl bg-amber/10 border border-amber/30 text-amber-300 text-xs flex items-start gap-3">
+          <span class="text-lg">⚠️</span>
+          <div>
+            <div class="font-bold text-sm mb-1 text-amber-200">Material Evidence Conflict Detected</div>
+            <div id="conflictList" class="space-y-1 text-gray-300"></div>
+          </div>
+        </div>
+
+        <!-- Qualitative Evidence Strength Meter -->
+        <div class="bg-black/30 p-4 rounded-xl border border-white/5 space-y-2">
+          <div class="flex justify-between items-center text-xs">
+            <span class="text-gray-400 font-medium">Evidence Strength (Qualitative Evaluation):</span>
+            <div class="flex items-center gap-2">
+              <span id="evidenceStrengthLabel" class="font-bold uppercase tracking-wider px-2 py-0.5 rounded text-[11px]"></span>
+              <span id="evidenceScoreValue" class="text-[10px] text-gray-500 font-mono">(Score: 0/100 experimental)</span>
+            </div>
+          </div>
+          <div class="w-full bg-white/10 rounded-full h-2 overflow-hidden">
+            <div id="confidenceBar" class="h-2 rounded-full bg-gradient-to-r from-cyan to-pink transition-all duration-700" style="width: 0%"></div>
+          </div>
+          <div id="confidenceAssessment" class="text-xs text-gray-300 italic pt-1"></div>
+        </div>
+
+        <!-- Summary & Core Findings -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-cyan mb-1.5 flex items-center gap-1.5">
+            <span>📝</span> Executive Summary
+          </h4>
+          <div id="explanationText" class="text-sm text-gray-200 leading-relaxed bg-black/40 p-4 rounded-xl border border-white/5"></div>
+        </div>
+
+        <!-- Claim Decomposition Breakdown (if applicable) -->
+        <div id="claimsBreakdownSection" class="hidden">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-soft mb-2 flex items-center gap-1.5">
+            <span>🧩</span> Claim Decomposition Breakdown
+          </h4>
+          <div id="claimsBreakdownList" class="space-y-2 text-xs"></div>
+        </div>
+
+        <!-- Evidence-Based Reasoning Points -->
+        <div id="indicatorsSection" class="hidden">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-pink mb-1.5 flex items-center gap-1.5">
+            <span>🔬</span> Key Evidence Points
+          </h4>
+          <ul id="indicatorsList" class="list-disc list-inside text-xs text-gray-300 space-y-1.5 bg-black/20 p-4 rounded-xl border border-white/5"></ul>
+        </div>
+
+        <!-- Separated Supporting vs Contradicting Evidence Cards -->
+        <div id="evidenceMatrixSection" class="space-y-4 pt-2 border-t border-white/10">
+          <div class="flex items-center justify-between">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-cyan flex items-center gap-1.5">
+              <span>📊</span> Grounded Evidence Matrix
+            </h4>
+            <span id="sourceCount" class="text-[11px] text-gray-400 font-mono"></span>
+          </div>
+
+          <!-- Supporting Evidence Section -->
+          <div id="supportingEvidenceContainer" class="hidden">
+            <div class="text-[11px] font-bold uppercase tracking-wider text-green-400 mb-2 flex items-center gap-1">
+              <span>✅</span> Supporting Sources
+            </div>
+            <div id="supportingList" class="grid sm:grid-cols-2 gap-2.5"></div>
+          </div>
+
+          <!-- Contradicting Evidence Section -->
+          <div id="contradictingEvidenceContainer" class="hidden">
+            <div class="text-[11px] font-bold uppercase tracking-wider text-pink mb-2 flex items-center gap-1">
+              <span>❌</span> Contradicting / Debunking Sources
+            </div>
+            <div id="contradictingList" class="grid sm:grid-cols-2 gap-2.5"></div>
+          </div>
+        </div>
+
+        <!-- Search Queries Pill Container -->
+        <div id="searchQueriesContainer" class="hidden pt-3 border-t border-white/5">
+          <div class="text-[11px] text-gray-400 font-medium mb-1.5">Google Search Queries Executed:</div>
+          <div id="searchQueriesPills" class="flex flex-wrap gap-1.5 text-[11px]"></div>
+        </div>
+
+        <!-- Limitations & Context Caveats -->
+        <div id="limitationsSection" class="hidden pt-3 border-t border-white/5">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-amber-300 mb-1 flex items-center gap-1.5">
+            <span>⚠️</span> Limitations & Missing Context
+          </h4>
+          <ul id="limitationsList" class="list-disc list-inside text-xs text-gray-400 space-y-1 bg-black/20 p-3 rounded-lg border border-white/5"></ul>
+        </div>
+
+        <!-- Advisory Recommendations -->
+        <div id="recommendationSection" class="hidden pt-2">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-soft mb-1">User Advisory & Guidance</h4>
+          <p id="recommendationText" class="text-xs text-gray-300 bg-black/20 p-3 rounded-lg border border-white/5 leading-relaxed"></p>
+        </div>
+
+        <!-- Metadata Footer -->
+        <div class="pt-4 border-t border-white/10 flex flex-wrap justify-between text-[11px] text-gray-500 font-mono">
+          <span id="contentTypeLabel">Content: TEXT</span>
+          <span id="processingTimeLabel">Processing: 0s</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section id="features" class="py-16 bg-navy">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12 text-soft">Disciplined Truth Verification</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white/5 p-7 rounded-2xl border border-white/10 hover:border-cyan transition">
+        <div class="text-2xl mb-3">🧩</div>
+        <h4 class="text-base font-bold text-cyan mb-2">Claim Decomposition</h4>
+        <p class="text-xs text-gray-400 leading-relaxed">Complex articles or compound statements are broken into discrete factual propositions so that one inaccurate claim doesn't taint an entire passage.</p>
+      </div>
+
+      <div class="bg-white/5 p-7 rounded-2xl border border-white/10 hover:border-pink transition">
+        <div class="text-2xl mb-3">⚖️</div>
+        <h4 class="text-base font-bold text-pink mb-2">Bidirectional Evidence Gathering</h4>
+        <p class="text-xs text-gray-400 leading-relaxed">The engine searches separately for supporting AND contradicting proof, detecting out-of-context quotes, temporal shifts, and scientific consensus.</p>
+      </div>
+
+      <div class="bg-white/5 p-7 rounded-2xl border border-white/10 hover:border-cyan transition">
+        <div class="text-2xl mb-3">🏢</div>
+        <h4 class="text-base font-bold text-cyan mb-2">Source Independence Clustering</h4>
+        <p class="text-xs text-gray-400 leading-relaxed">Multiple tech blogs republishing the same wire release are clustered together, preventing echo-chambers from falsely inflating evidence strength.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PIPELINE ================= -->
+<section id="pipeline" class="py-16 bg-navy2">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12 text-soft">Verification Pipeline</h3>
+
+    <div class="grid md:grid-cols-4 gap-6 text-center text-sm">
+      <div class="bg-white/5 p-5 rounded-xl border border-white/5">
+        <div class="text-2xl mb-2">1️⃣</div>
+        <h5 class="font-bold text-white mb-1">Decompose</h5>
+        <p class="text-xs text-gray-400">Isolate testable factual propositions from opinions and predictions.</p>
+      </div>
+      <div class="bg-white/5 p-5 rounded-xl border border-white/5">
+        <div class="text-2xl mb-2">2️⃣</div>
+        <h5 class="font-bold text-white mb-1">Bidirectional Search</h5>
+        <p class="text-xs text-gray-400">Search for supporting records and opposing fact-checks in parallel.</p>
+      </div>
+      <div class="bg-white/5 p-5 rounded-xl border border-white/5">
+        <div class="text-2xl mb-2">3️⃣</div>
+        <h5 class="font-bold text-white mb-1">Conflict Detection</h5>
+        <p class="text-xs text-gray-400">Identify date mismatches, definition shifts, or headline exaggerations.</p>
+      </div>
+      <div class="bg-white/5 p-5 rounded-xl border border-white/5">
+        <div class="text-2xl mb-2">4️⃣</div>
+        <h5 class="font-bold text-white mb-1">Disciplined Verdict</h5>
+        <p class="text-xs text-gray-400">Deliver transparent verdict, evidence status, and qualitative certainty.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="py-16 bg-navy">
+  <div class="max-w-4xl mx-auto px-6 space-y-4">
+    <h3 class="text-3xl font-bold text-center mb-8 text-soft">Evidence Quality & Methodology</h3>
+
+    <details class="bg-white/5 p-5 rounded-xl border border-white/10">
+      <summary class="cursor-pointer font-semibold text-sm text-gray-200">How does VerifiX AI assess evidence strength?</summary>
+      <p class="mt-3 text-xs text-gray-400 leading-relaxed">Evidence strength is categorized qualitatively as Strong, Moderate, Limited, or Insufficient based on source independence, the presence of primary documentation, relevance to the exact claim, and the absence of unresolved material conflicts.</p>
+    </details>
+
+    <details class="bg-white/5 p-5 rounded-xl border border-white/10">
+      <summary class="cursor-pointer font-semibold text-sm text-gray-200">What happens when credible sources disagree?</summary>
+      <p class="mt-3 text-xs text-gray-400 leading-relaxed">Rather than forcing an unearned binary verdict or deciding by majority vote, the system surfaces a Material Conflict Warning, explains what is established versus what is disputed, and assigns an Unverified verdict.</p>
+    </details>
+
+    <details class="bg-white/5 p-5 rounded-xl border border-white/10">
+      <summary class="cursor-pointer font-semibold text-sm text-gray-200">Is a lack of search results proof that a claim is false?</summary>
+      <p class="mt-3 text-xs text-gray-400 leading-relaxed">No. Absence of evidence is not evidence of absence. Obscure, local, or emerging claims with no verified records are classified as Unverified with an Insufficient Evidence status, not automatically labeled Misleading.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-black py-8 text-center text-gray-500 text-xs border-t border-white/10">
+  <p>© 2026 VerifiX AI. Built for evidence-based information integrity.</p>
+  <p class="mt-1">Google Gemini 2.5 Flash • Live Google Search Grounding • Multi-Source Clustered</p>
+</footer>
+
+<!-- ================= CLIENT SCRIPT ================= -->
+<script>
+function preset(text) {
+  document.getElementById("demoText").value = text;
+}
+
+function handleFileSelected(input) {
+  const file = input.files && input.files[0] ? input.files[0] : null;
+  const badge = document.getElementById("fileBadge");
+  const removeBtn = document.getElementById("removeFileBtn");
+  const previewContainer = document.getElementById("imagePreviewContainer");
+  const previewImg = document.getElementById("imagePreview");
+
+  if (file) {
+    badge.textContent = `Attached: ${file.name}`;
+    badge.classList.remove("hidden");
+    removeBtn.classList.remove("hidden");
+
+    if (file.type.startsWith("image/")) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        previewImg.src = e.target.result;
+        previewContainer.classList.remove("hidden");
+      };
+      reader.readAsDataURL(file);
+    }
+  } else {
+    clearFileAttachment();
+  }
+}
+
+function clearFileAttachment() {
+  const input = document.getElementById("videoUpload");
+  if (input) input.value = "";
+  document.getElementById("fileBadge").classList.add("hidden");
+  document.getElementById("removeFileBtn").classList.add("hidden");
+  document.getElementById("imagePreviewContainer").classList.add("hidden");
+  document.getElementById("imagePreview").src = "";
+}
+
+async function verifyText() {
+  const textInput = document.getElementById("demoText");
+  const text = textInput.value.trim();
+  const fileInput = document.getElementById("videoUpload");
+  const file = fileInput && fileInput.files ? fileInput.files[0] : null;
+
+  if (!text && !file) {
+    alert("Please enter a claim statement, paste an article URL, or attach an image to verify.");
+    return;
+  }
+
+  const verifyBtn = document.getElementById("verifyBtn");
+  const resultBox = document.getElementById("resultBox");
+  const verdict = document.getElementById("verdict");
+  const evidenceStatusBadge = document.getElementById("evidenceStatusBadge");
+  const conflictBanner = document.getElementById("conflictBanner");
+  const conflictList = document.getElementById("conflictList");
+  const evidenceStrengthLabel = document.getElementById("evidenceStrengthLabel");
+  const evidenceScoreValue = document.getElementById("evidenceScoreValue");
+  const confidenceBar = document.getElementById("confidenceBar");
+  const confidenceAssessment = document.getElementById("confidenceAssessment");
+  const explanationText = document.getElementById("explanationText");
+  const claimsBreakdownSection = document.getElementById("claimsBreakdownSection");
+  const claimsBreakdownList = document.getElementById("claimsBreakdownList");
+  const indicatorsSection = document.getElementById("indicatorsSection");
+  const indicatorsList = document.getElementById("indicatorsList");
+  const evidenceMatrixSection = document.getElementById("evidenceMatrixSection");
+  const supportingEvidenceContainer = document.getElementById("supportingEvidenceContainer");
+  const supportingList = document.getElementById("supportingList");
+  const contradictingEvidenceContainer = document.getElementById("contradictingEvidenceContainer");
+  const contradictingList = document.getElementById("contradictingList");
+  const searchQueriesContainer = document.getElementById("searchQueriesContainer");
+  const searchQueriesPills = document.getElementById("searchQueriesPills");
+  const limitationsSection = document.getElementById("limitationsSection");
+  const limitationsList = document.getElementById("limitationsList");
+  const recommendationSection = document.getElementById("recommendationSection");
+  const recommendationText = document.getElementById("recommendationText");
+  const sourceCount = document.getElementById("sourceCount");
+  const contentTypeLabel = document.getElementById("contentTypeLabel");
+  const processingTimeLabel = document.getElementById("processingTimeLabel");
+
+  // Loading state
+  resultBox.classList.remove("hidden");
+  verdict.textContent = "Analyzing Multi-Source Evidence...";
+  verdict.className = "font-bold text-base md:text-lg px-3 py-1 rounded-lg bg-cyan/10 text-cyan border border-cyan/30 animate-pulse";
+  evidenceStatusBadge.textContent = "Search Grounding Active";
+  evidenceStatusBadge.className = "text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider bg-white/10 text-gray-300";
+  conflictBanner.classList.add("hidden");
+  evidenceStrengthLabel.textContent = "Evaluating...";
+  evidenceStrengthLabel.className = "font-bold uppercase tracking-wider px-2 py-0.5 rounded text-[11px] bg-white/10 text-gray-400";
+  evidenceScoreValue.textContent = "(Gathering sources...)";
+  confidenceBar.style.width = "20%";
+  confidenceAssessment.textContent = "Executing bidirectional searches for supporting and contradicting records...";
+  explanationText.textContent = "Decomposing claims and comparing retrieved factual evidence...";
+  claimsBreakdownSection.classList.add("hidden");
+  indicatorsSection.classList.add("hidden");
+  supportingEvidenceContainer.classList.add("hidden");
+  contradictingEvidenceContainer.classList.add("hidden");
+  searchQueriesContainer.classList.add("hidden");
+  limitationsSection.classList.add("hidden");
+  recommendationSection.classList.add("hidden");
+  verifyBtn.disabled = true;
+  verifyBtn.classList.add("opacity-50", "cursor-not-allowed");
+
+  const formData = new FormData();
+  if (text) formData.append("text", text);
+  if (file) formData.append("image", file);
+
+  try {
+    const res = await fetch("/api/verify", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      verdict.textContent = res.status === 429 ? "Rate Limit Exceeded" : "Verification Failed";
+      verdict.className = "font-bold text-lg px-3 py-1 rounded-lg bg-red-500/20 text-red-400 border border-red-500/30";
+      evidenceStatusBadge.textContent = `HTTP ${res.status}`;
+      evidenceStatusBadge.className = "text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider bg-red-500/20 text-red-300";
+      confidenceBar.style.width = "0%";
+      explanationText.textContent = data.error || "An error occurred during verification.";
+      return;
+    }
+
+    // 1. Verdict & Status
+    const v = (data.verdict || data.classification || "unverified").toLowerCase();
+    verdict.textContent = v.toUpperCase();
+
+    if (v === "verified") {
+      verdict.className = "font-extrabold text-lg px-3.5 py-1 rounded-lg bg-green-500/20 text-green-400 border border-green-500/40";
+    } else if (v === "misleading") {
+      verdict.className = "font-extrabold text-lg px-3.5 py-1 rounded-lg bg-pink/20 text-pink border border-pink/40";
+    } else {
+      verdict.className = "font-extrabold text-lg px-3.5 py-1 rounded-lg bg-yellow-500/20 text-yellow-400 border border-yellow-500/40";
+    }
+
+    const evStatus = (data.evidence_status || "insufficient_evidence").replace(/_/g, " ").toUpperCase();
+    evidenceStatusBadge.textContent = evStatus;
+    if (evStatus.includes("SUPPORTED")) {
+      evidenceStatusBadge.className = "text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider bg-green-500/10 text-green-300 border border-green-500/20";
+    } else if (evStatus.includes("CONTRADICTED")) {
+      evidenceStatusBadge.className = "text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider bg-pink/10 text-pink border border-pink/20";
+    } else if (evStatus.includes("MISLEADING")) {
+      evidenceStatusBadge.className = "text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider bg-amber/10 text-amber-300 border border-amber/30";
+    } else {
+      evidenceStatusBadge.className = "text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider bg-yellow-500/10 text-yellow-300 border border-yellow-500/20";
+    }
+
+    // 2. Conflict Warning Banner
+    if (data.conflicts && data.conflicts.length > 0) {
+      conflictList.innerHTML = "";
+      data.conflicts.forEach(c => {
+        const p = document.createElement("div");
+        p.textContent = `• ${c}`;
+        conflictList.appendChild(p);
+      });
+      conflictBanner.classList.remove("hidden");
+    } else {
+      conflictBanner.classList.add("hidden");
+    }
+
+    // 3. Evidence Strength & Confidence
+    const strength = (data.evidence_strength || "insufficient").toLowerCase();
+    evidenceStrengthLabel.textContent = strength.toUpperCase();
+    if (strength === "strong") {
+      evidenceStrengthLabel.className = "font-bold uppercase tracking-wider px-2 py-0.5 rounded text-[11px] bg-green-500/20 text-green-300 border border-green-500/30";
+    } else if (strength === "moderate") {
+      evidenceStrengthLabel.className = "font-bold uppercase tracking-wider px-2 py-0.5 rounded text-[11px] bg-cyan/20 text-cyan border border-cyan/30";
+    } else if (strength === "limited") {
+      evidenceStrengthLabel.className = "font-bold uppercase tracking-wider px-2 py-0.5 rounded text-[11px] bg-yellow-500/20 text-yellow-300 border border-yellow-500/30";
+    } else {
+      evidenceStrengthLabel.className = "font-bold uppercase tracking-wider px-2 py-0.5 rounded text-[11px] bg-white/10 text-gray-400 border border-white/10";
+    }
+
+    const score = typeof data.evidence_strength_score === "number" ? data.evidence_strength_score : (data.confidence || 0);
+    evidenceScoreValue.textContent = `(Score: ${score}/100 experimental heuristic)`;
+    confidenceBar.style.width = `${Math.min(100, Math.max(5, score))}%`;
+    confidenceAssessment.textContent = data.confidence_explanation || data.confidence_assessment || "Qualitative certainty rating based on evidence consistency.";
+
+    // 4. Executive Summary
+    explanationText.textContent = data.summary || data.explanation || "No explanation provided.";
+
+    // 5. Claim Decomposition Breakdown
+    if (data.claims_breakdown && data.claims_breakdown.length > 1) {
+      claimsBreakdownList.innerHTML = "";
+      data.claims_breakdown.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "p-3 rounded-lg bg-black/30 border border-white/5 flex flex-col gap-1";
+        const vBadgeClass = item.verdict === "verified" ? "text-green-400 bg-green-500/10" : (item.verdict === "misleading" ? "text-pink bg-pink/10" : "text-yellow-400 bg-yellow-500/10");
+        card.innerHTML = `
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="font-bold text-gray-200">Claim #${item.claim_id}: "${escapeHtml(item.statement || '')}"</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase ${vBadgeClass}">${escapeHtml(item.verdict || 'unverified')}</span>
+          </div>
+          <div class="text-[11px] text-gray-400">${escapeHtml(item.explanation || '')}</div>
+        `;
+        claimsBreakdownList.appendChild(card);
+      });
+      claimsBreakdownSection.classList.remove("hidden");
+    } else {
+      claimsBreakdownSection.classList.add("hidden");
+    }
+
+    // 6. Reasoning / Key Indicators
+    const reasoningPoints = data.reasoning || data.key_indicators || [];
+    if (reasoningPoints.length > 0) {
+      indicatorsList.innerHTML = "";
+      reasoningPoints.forEach(r => {
+        const li = document.createElement("li");
+        li.textContent = r;
+        indicatorsList.appendChild(li);
+      });
+      indicatorsSection.classList.remove("hidden");
+    } else {
+      indicatorsSection.classList.add("hidden");
+    }
+
+    // 7. Grounded Evidence Matrix (Supporting & Contradicting)
+    const supp = data.supporting_evidence || [];
+    const contra = data.contradicting_evidence || [];
+    const totalCount = supp.length + contra.length;
+
+    sourceCount.textContent = `${totalCount} source(s) evaluated`;
+
+    renderSourceCards(supp, supportingList, "border-green-500/20");
+    if (supp.length > 0) supportingEvidenceContainer.classList.remove("hidden");
+    else supportingEvidenceContainer.classList.add("hidden");
+
+    renderSourceCards(contra, contradictingList, "border-pink/20");
+    if (contra.length > 0) contradictingEvidenceContainer.classList.remove("hidden");
+    else contradictingEvidenceContainer.classList.add("hidden");
+
+    // Fallback if legacy sources list is present and neither supp nor contra are populated
+    if (totalCount === 0 && data.sources && data.sources.length > 0) {
+      renderSourceCards(data.sources, supportingList, "border-cyan/20");
+      supportingEvidenceContainer.classList.remove("hidden");
+      sourceCount.textContent = `${data.sources.length} sources retrieved`;
+    }
+
+    // 8. Search Queries
+    if (data.search_queries && data.search_queries.length > 0) {
+      searchQueriesPills.innerHTML = "";
+      data.search_queries.forEach(q => {
+        const pill = document.createElement("span");
+        pill.className = "bg-white/5 text-gray-400 px-2 py-0.5 rounded border border-white/5";
+        pill.textContent = `🔍 ${q}`;
+        searchQueriesPills.appendChild(pill);
+      });
+      searchQueriesContainer.classList.remove("hidden");
+    } else {
+      searchQueriesContainer.classList.add("hidden");
+    }
+
+    // 9. Limitations
+    if (data.limitations && data.limitations.length > 0) {
+      limitationsList.innerHTML = "";
+      data.limitations.forEach(l => {
+        const li = document.createElement("li");
+        li.textContent = l;
+        limitationsList.appendChild(li);
+      });
+      limitationsSection.classList.remove("hidden");
+    } else {
+      limitationsSection.classList.add("hidden");
+    }
+
+    // 10. Recommendations
+    if (data.recommendations) {
+      recommendationText.textContent = data.recommendations;
+      recommendationSection.classList.remove("hidden");
+    } else {
+      recommendationSection.classList.add("hidden");
+    }
+
+    contentTypeLabel.textContent = `Content: ${(data.content_type || "text").toUpperCase()}`;
+    processingTimeLabel.textContent = `Processing Time: ${data.processing_time || 0}s`;
+
+  } catch (error) {
+    verdict.textContent = "Connection Error";
+    verdict.className = "font-bold text-lg px-3 py-1 rounded-lg bg-red-500/20 text-red-400 border border-red-500/30";
+    confidenceBar.style.width = "0%";
+    explanationText.textContent = "Unable to reach the backend server. Make sure Flask is active.";
+  } finally {
+    verifyBtn.disabled = false;
+    verifyBtn.classList.remove("opacity-50", "cursor-not-allowed");
+  }
+}
+
+function renderSourceCards(sources, container, borderColor) {
+  container.innerHTML = "";
+  sources.forEach(s => {
+    const card = document.createElement("a");
+    card.href = s.url || "#";
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+    card.className = `p-3.5 rounded-xl bg-black/40 hover:bg-black/60 border ${borderColor} hover:border-cyan/50 transition flex flex-col justify-between group`;
+
+    const title = s.title || "Web Source";
+    const publisher = s.publisher || "Publisher Unknown";
+    const stype = s.source_type ? s.source_type.toUpperCase() : "SECONDARY";
+    const relevance = s.relevance ? s.relevance.toUpperCase() : "MEDIUM";
+    const summary = s.evidence_summary || "Retrieved factual citation.";
+    const reliability = s.reliability_assessment || "";
+
+    // Stage 4 citation and syndication metadata
+    const isGrounded = s.citation_grounded !== false;
+    const groundingBadge = isGrounded 
+      ? `<span class="px-1.5 py-0.5 rounded bg-green-500/10 text-green-400 border border-green-500/20 text-[9px]">✓ Grounded</span>`
+      : `<span class="px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30 text-[9px]">⚠ Ungrounded</span>`;
+
+    const wireBadge = s.independence_status === "syndicated_pr"
+      ? `<span class="px-1.5 py-0.5 rounded bg-purple-500/15 text-purple-300 border border-purple-500/30 text-[9px]">PR Wire</span>`
+      : (s.syndicated_wire ? `<span class="px-1.5 py-0.5 rounded bg-purple-500/15 text-purple-300 border border-purple-500/30 text-[9px]">Wire Syndicated</span>` : "");
+
+    const unknownBadge = s.independence_status === "unknown"
+      ? `<span class="px-1.5 py-0.5 rounded bg-gray-500/20 text-gray-400 border border-gray-500/30 text-[9px]">Unknown Provenance</span>`
+      : "";
+
+    const staleBadge = s.is_stale_citation 
+      ? `<span class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 border border-yellow-500/30 text-[9px]" title="${escapeHtml(s.staleness_warning || 'Potentially outdated source')}">⏱ Outdated Era</span>`
+      : "";
+
+    const semanticBadge = s.semantic_support_status === "not_semantically_verified"
+      ? `<span class="px-1.5 py-0.5 rounded bg-blue-500/10 text-blue-300 border border-blue-500/20 text-[9px]" title="${escapeHtml(s.semantic_validation_note || 'Search grounded; external page not semantically verified')}">Unverified Text</span>`
+      : "";
+
+    card.innerHTML = `
+      <div>
+        <div class="flex items-center justify-between text-[10px] text-gray-500 font-mono mb-1.5">
+          <span class="text-cyan font-semibold truncate max-w-[130px]">${escapeHtml(publisher)}</span>
+          <div class="flex items-center gap-1 flex-wrap justify-end">
+            ${groundingBadge}
+            ${semanticBadge}
+            ${wireBadge}
+            ${unknownBadge}
+            ${staleBadge}
+            <span class="px-1.5 py-0.5 rounded bg-white/5 text-[9px] uppercase">${escapeHtml(stype)}</span>
+            <span class="px-1.5 py-0.5 rounded bg-white/5 text-[9px] uppercase">${escapeHtml(relevance)}</span>
+          </div>
+        </div>
+        <div class="text-xs font-semibold text-gray-200 group-hover:text-cyan line-clamp-2 mb-1.5 leading-snug">${escapeHtml(title)}</div>
+        <div class="text-[11px] text-gray-400 line-clamp-2 leading-tight">${escapeHtml(summary)}</div>
+      </div>
+      <div class="mt-2.5 pt-2 border-t border-white/5 flex items-center justify-between text-[10px] text-gray-500">
+        <span class="truncate max-w-[190px] italic">${escapeHtml(reliability)}</span>
+        <span class="text-cyan group-hover:translate-x-0.5 transition-transform text-xs">↗</span>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
+}
+</script>
+
+</body>
+</html>
